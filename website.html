@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Hub</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Cinzel', serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pexels-leon-ardho-1552242.jpg');
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        height: 1000px;
+        width: 2000px;
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 13px;
+        display: inline-block;
+        
+    }
+
+    .left img {
+        width: 94px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 74%;
+        margin: 10px auto;
+        
+        
+
+    }
+
+    .right {
+        position: absolute;
+        right: -79px;
+        top: 13px;
+        display: inline-block;
+        
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gold;
+    }
+
+    .btn {
+        font-family: 'Cinzel', serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 15px 1px;
+        border: 2px solid white;
+        border-radius: 12px;
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        
+        margin: 70px 35px;
+        padding: 58px 17px;
+        width: 34%;
+        border-radius: 7px;
+    }
+
+    .form-group input {
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        display: block;
+        width: 411px;
+        padding: 13px;
+        font-size: 21px;
+        border: 1px solid black;
+        margin: 5px auto;
+        border-radius: 36px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 20%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- for logo -->
+        <div class="left">
+            <img src="img/img.png" alt="">
+            <div>Fitness Hub</div>
+        </div>
+        <!-- for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+
+            </ul>
+        </div>
+        <!-- for buttons -->
+        <div class="right">
+            <button class="btn">Book a slot</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
